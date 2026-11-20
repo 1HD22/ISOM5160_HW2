@@ -131,8 +131,8 @@ def main():
     # Use a Hugging Face fine-grained token from Streamlit Cloud secrets
     # if one is set. Do not put the token in this file.
     hf_token = None
-    if "HF_TOKEN" in st.secrets:
-        hf_token = st.secrets["HF_TOKEN"]
+    # if "HF_TOKEN" in st.secrets:
+    #    hf_token = st.secrets["HF_TOKEN"]
 
     # STUDENT: load the model with load_model(hf_token)
     classifier = None
